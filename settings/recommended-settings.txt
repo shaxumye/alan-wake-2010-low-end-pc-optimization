@@ -1,0 +1,43 @@
+ALAN WAKE (2010) - RECOMMENDED SETTINGS
+========================================
+
+TARGET SYSTEM
+-------------
+Dell Latitude 7290
+Intel Core i5-8350U
+16 GB RAM
+Intel integrated graphics (commonly UHD Graphics 620)
+
+START WITH
+----------
+Resolution:       1280 x 720
+Display mode:     Windowed (launcher passes -window)
+Anti-aliasing:    Off
+Shadows:          Low
+Effects:          Low
+Post-processing:  Low
+Textures:         Low or Medium (test both)
+V-Sync:           Off for testing
+
+IF IT STILL STUTTERS
+--------------------
+Try the included 960 x 540 launcher.
+Lower shadows/effects before lowering textures further.
+Close browsers and GPU-heavy background applications.
+Play while plugged in and keep the vents unobstructed.
+
+LAUNCHER OPTIONS
+----------------
+720p launcher:
+-w1280 -h720 -window -novsync -showfps
+
+540p launcher:
+-w960 -h540 -window -novsync -showfps
+
+These command-line switches are documented for the original PC release.
+If your edition ignores them, use the in-game graphics menu.
+
+NO UNSAFE TWEAKS
+----------------
+This pack does not edit the registry, disable security, replace DLLs,
+modify game files, or overwrite the game's own settings/save files.
